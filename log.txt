@@ -1,0 +1,14 @@
+::ffff:127.0.0.1 - - [27/Feb/2023:22:26:51 +0000] "GET / HTTP/1.1" 304 -
+::ffff:127.0.0.1 - - [27/Feb/2023:22:26:51 +0000] "GET /assets/stylesheets/style.css HTTP/1.1" 304 -
+::ffff:127.0.0.1 - - [27/Feb/2023:22:26:51 +0000] "GET /assets/vendor/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 -
+::ffff:127.0.0.1 - - [27/Feb/2023:22:26:51 +0000] "GET /assets/vendor/jquery/jquery.min.js HTTP/1.1" 304 -
+::ffff:127.0.0.1 - - [27/Feb/2023:22:26:51 +0000] "GET /assets/vendor/popper.js/popper.min.js HTTP/1.1" 304 -
+::ffff:127.0.0.1 - - [27/Feb/2023:22:26:51 +0000] "GET /assets/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 -
+::ffff:127.0.0.1 - - [27/Feb/2023:22:26:51 +0000] "GET /assets/vendor/feather-icons/feather.js HTTP/1.1" 304 -
+::ffff:127.0.0.1 - - [27/Feb/2023:22:56:07 +0000] "GET / HTTP/1.1" 304 -
+::ffff:127.0.0.1 - - [27/Feb/2023:22:56:07 +0000] "GET /assets/vendor/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 -
+::ffff:127.0.0.1 - - [27/Feb/2023:22:56:07 +0000] "GET /assets/stylesheets/style.css HTTP/1.1" 304 -
+::ffff:127.0.0.1 - - [27/Feb/2023:22:56:07 +0000] "GET /assets/vendor/jquery/jquery.min.js HTTP/1.1" 304 -
+::ffff:127.0.0.1 - - [27/Feb/2023:22:56:07 +0000] "GET /assets/vendor/popper.js/popper.min.js HTTP/1.1" 304 -
+::ffff:127.0.0.1 - - [27/Feb/2023:22:56:07 +0000] "GET /assets/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 -
+::ffff:127.0.0.1 - - [27/Feb/2023:22:56:07 +0000] "GET /assets/vendor/feather-icons/feather.js HTTP/1.1" 304 -
