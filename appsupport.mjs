@@ -1,6 +1,7 @@
 import { port } from './app.mjs';
 import { default as DBG } from 'debug';
 const debug = DBG('notes:debug');
+const dbgerror = DBG('notes:error');
 //uncaughtnexception and unhandledrejection 
 process.on('uncaughtException', function (err) {
     console.error(`I've crashed!!! - ${(err.stack || err)}`);

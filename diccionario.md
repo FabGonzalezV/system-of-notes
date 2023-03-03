@@ -155,3 +155,6 @@ whereas -mientras que
 
 aims - objetivos
 
+sudo netstat -putona | grep <puerto>
+sudo fuser -k -n tcp <puerto>
+

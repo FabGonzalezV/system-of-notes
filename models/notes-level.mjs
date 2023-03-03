@@ -1,5 +1,5 @@
 import util from 'util';
-import { Note, AbstractNotesStore } from './Notes.mjs';
+import { Note, AbstractNotesStore } from './notes.mjs';
 import level from 'level';
 import { default as DBG } from 'debug';
 const debug = DBG('notes:notes-level');

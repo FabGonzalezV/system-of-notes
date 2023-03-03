@@ -10,17 +10,18 @@
     "fs-server1": "cross-env NOTES_MODEL=fs PORT=3001 node ./app.mjs",
     "fs-server2": "cross-env NOTES_MODEL=fs PORT=3002 node ./app.mjs",
     "start": "cross-env DEBUG=notes:* npm run fs-start",
-    "level-start": "cross-env DEBUG=notes:* PORT=3000 NOTES_MODEL=level node ./app.mjs"
+    "level-start": "cross-env DEBUG=notes:* PORT=3003 NOTES_MODEL=level node ./app.mjs"
   },
   "dependencies": {
     "bootstrap": "4.5.x",
     "cookie-parser": "~1.4.4",
     "cross-env": "^7.0.3",
     "debug": "~2.6.9",
-    "express": "~4.16.1",
+    "express": "^4.18.2",
+    "express-generator": "^4.2.0",
     "feather-icons": "4.25.x",
     "fs-extra": "^11.1.0",
-    "hbs": "~4.0.4",
+    "hbs": "^4.2.0",
     "http-errors": "~1.6.3",
     "jquery": "3.5.x",
     "level": "^6.0.1",
