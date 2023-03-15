@@ -14,6 +14,11 @@ import {
 
 import { router as indexRouter } from './routes/index.mjs';
 import { router as notesRouter } from './routes/notes.mjs';
+import { router as usersRouter, initPassport } from "./routes/users.mjs";
+import session from "express-session";
+import sessionFileStore from "session-file-store";
+const FileStore = sessionFileStore(session);
+export const sessionCookieName = "notescookie.sid";
 
 //import and exprt datastorage
 //import { InMemoryNotesStore } from './models/notes-memory.mjs';
@@ -66,10 +71,24 @@ app.use('/assets/vendor/popper.js', express.static(
 app.use('/assets/vendor/feather-icons', express.static(
     path.join(__dirname, 'node_modules', 'feather-icons', 'dist')));
 
+///session
+app.use(
+  session({
+    store: new FileStore({ path: "sessions" }),
+    secret: "keyboard mouse",
+    resave: true,
+    saveUninitialized: true,
+    name: sessionCookieName,
+  })
+);
+initPassport(app);
+
+
 
 // Router function lists
 app.use('/', indexRouter);
 app.use('/notes', notesRouter);
+app.use("/users", usersRouter);
 // error handlers
 // catch 404 and forward to error handler
 app.use(handle404);
