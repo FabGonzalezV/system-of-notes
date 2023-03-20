@@ -18,7 +18,8 @@
     "fuser": "fuser -k -n tcp 3000",
     "sequelize-start": "cross-env DEBUG=notes:* SEQUELIZE_CONNECT=models/sequelize-sqlite.yaml NOTES_MODEL=sequelize node ./app.mjs",
     "sequelize-server1": "cross-env SEQUELIZE_CONNECT=models/sequelize-sqlite.yaml NOTES_MODEL=sequelize PORT=3001 node ./app.mjs",
-    "sequelize-server2": "cross-env SEQUELIZE_CONNECT=models/sequelize-sqlite.yaml NOTES_MODEL=sequelize PORT=3002 node ./app.mjs"
+    "sequelize-server2": "cross-env SEQUELIZE_CONNECT=models/sequelize-sqlite.yaml NOTES_MODEL=sequelize PORT=3002 node ./app.mjs",
+     "start2":"cross-env DEBUG=notes:* SEQUELIZE_CONNECT=models/sequelize-sqlite.yaml NOTES_MODEL=sequelize USER_SERVICE_URL=http://localhost:5858 node ./app.mjs"
   },
   "dependencies": {
     "bootstrap": "4.5.x",
