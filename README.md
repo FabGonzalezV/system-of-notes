@@ -1,9 +1,8 @@
-# Sistema de notas simple
+ 
 
 ## Carácteristicas generales del proyecto
 
-Por supuesto, aquí tienes una documentación básica para tu proyecto de "Registro de Tareas - To-Do List":
-
+ 
 ## Registro de Tareas - To-Do List
 
 ### Descripción del Proyecto
